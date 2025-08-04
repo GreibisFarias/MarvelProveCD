@@ -13,10 +13,21 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
-        // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
-        // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let _ = (scene as? UIWindowScene) else { return }
+        // Casteamos UIScene a UIWindowScene
+        guard let Scene = (scene as? UIWindowScene) else { return }
+        // Instanciar un objeto Window con el Scene desempaquetado
+        let window = UIWindow(windowScene: Scene)
+        // Creamos el Navegation Controller
+        let navegationController = UINavigationController()
+        // Creamos el primer View Controller de nuestra aplicación
+        let loginViewController = LoginViewController()
+        let TableView = MavelTableViewController()
+        //añadimos el primer View Controller al Navegation Controller
+        navegationController.setViewControllers([loginViewController], animated: true)
+        // Hacemos el Navegation Controller y el View Controler al Window
+        window.rootViewController = navegationController
+        window.makeKeyAndVisible()
+        self.window = window
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

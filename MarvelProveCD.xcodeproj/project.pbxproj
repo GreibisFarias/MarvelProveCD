@@ -7,15 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE873BEF2E3ED650003C21AC /* MarvelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE873BED2E3ED650003C21AC /* MarvelTableViewCell.swift */; };
+		CE873BF02E3ED650003C21AC /* MarvelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE873BEE2E3ED650003C21AC /* MarvelTableViewCell.xib */; };
+		CE873BFA2E4017FD003C21AC /* FavoritesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE873BF92E4017FD003C21AC /* FavoritesTableViewController.swift */; };
+		CE873BFC2E4021D1003C21AC /* AsyncPhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE873BFB2E4021D1003C21AC /* AsyncPhotos.swift */; };
 		CEB338C12E398BD400ADA901 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB338C02E398BD400ADA901 /* AppDelegate.swift */; };
 		CEB338C32E398BD400ADA901 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB338C22E398BD400ADA901 /* SceneDelegate.swift */; };
 		CEB338C52E398BD400ADA901 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB338C42E398BD400ADA901 /* ViewController.swift */; };
 		CEB338C82E398BD400ADA901 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB338C62E398BD400ADA901 /* Main.storyboard */; };
 		CEB338CA2E398BD600ADA901 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB338C92E398BD600ADA901 /* Assets.xcassets */; };
 		CEB338CD2E398BD600ADA901 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB338CB2E398BD600ADA901 /* LaunchScreen.storyboard */; };
+		CEB338D52E39A12700ADA901 /* NetworkCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB338D42E39A12700ADA901 /* NetworkCall.swift */; };
+		CEB338D72E39A15400ADA901 /* MarvelModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB338D62E39A15400ADA901 /* MarvelModels.swift */; };
+		CEB338DA2E39A39400ADA901 /* MarvelStories.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB338D92E39A39400ADA901 /* MarvelStories.swift */; };
+		CEB338DD2E39AACC00ADA901 /* UrlsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB338DC2E39AACC00ADA901 /* UrlsModels.swift */; };
+		CEB338E42E3C580100ADA901 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEB338E22E3C580100ADA901 /* Model.xcdatamodeld */; };
+		CEB338EB2E3DB23F00ADA901 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB338E92E3DB23F00ADA901 /* LoginViewController.swift */; };
+		CEB338EE2E3DB51100ADA901 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB338ED2E3DB51100ADA901 /* LoginView.swift */; };
+		CEB338F22E3DBE8900ADA901 /* MavelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB338F12E3DBE8900ADA901 /* MavelTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE873BED2E3ED650003C21AC /* MarvelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelTableViewCell.swift; sourceTree = "<group>"; };
+		CE873BEE2E3ED650003C21AC /* MarvelTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarvelTableViewCell.xib; sourceTree = "<group>"; };
+		CE873BF92E4017FD003C21AC /* FavoritesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewController.swift; sourceTree = "<group>"; };
+		CE873BFB2E4021D1003C21AC /* AsyncPhotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncPhotos.swift; sourceTree = "<group>"; };
 		CEB338BD2E398BD400ADA901 /* MarvelProveCD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarvelProveCD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB338C02E398BD400ADA901 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEB338C22E398BD400ADA901 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +40,14 @@
 		CEB338C92E398BD600ADA901 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEB338CC2E398BD600ADA901 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEB338CE2E398BD600ADA901 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEB338D42E39A12700ADA901 /* NetworkCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCall.swift; sourceTree = "<group>"; };
+		CEB338D62E39A15400ADA901 /* MarvelModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelModels.swift; sourceTree = "<group>"; };
+		CEB338D92E39A39400ADA901 /* MarvelStories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelStories.swift; sourceTree = "<group>"; };
+		CEB338DC2E39AACC00ADA901 /* UrlsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlsModels.swift; sourceTree = "<group>"; };
+		CEB338E32E3C580100ADA901 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		CEB338E92E3DB23F00ADA901 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CEB338ED2E3DB51100ADA901 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CEB338F12E3DBE8900ADA901 /* MavelTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MavelTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +61,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE873BFD2E403537003C21AC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CEB338DC2E39AACC00ADA901 /* UrlsModels.swift */,
+				CE873BFB2E4021D1003C21AC /* AsyncPhotos.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		CEB338B42E398BD400ADA901 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +89,11 @@
 		CEB338BF2E398BD400ADA901 /* MarvelProveCD */ = {
 			isa = PBXGroup;
 			children = (
+				CE873BFD2E403537003C21AC /* Extensions */,
+				CEB338E12E3C57F000ADA901 /* DataCore */,
+				CEB338DE2E3C568000ADA901 /* Views */,
+				CEB338DB2E39AAB300ADA901 /* Networks */,
+				CEB338D82E39A35D00ADA901 /* Models */,
 				CEB338C02E398BD400ADA901 /* AppDelegate.swift */,
 				CEB338C22E398BD400ADA901 /* SceneDelegate.swift */,
 				CEB338C42E398BD400ADA901 /* ViewController.swift */,
@@ -65,6 +103,68 @@
 				CEB338CE2E398BD600ADA901 /* Info.plist */,
 			);
 			path = MarvelProveCD;
+			sourceTree = "<group>";
+		};
+		CEB338D82E39A35D00ADA901 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CEB338D62E39A15400ADA901 /* MarvelModels.swift */,
+				CEB338D92E39A39400ADA901 /* MarvelStories.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CEB338DB2E39AAB300ADA901 /* Networks */ = {
+			isa = PBXGroup;
+			children = (
+				CEB338D42E39A12700ADA901 /* NetworkCall.swift */,
+			);
+			path = Networks;
+			sourceTree = "<group>";
+		};
+		CEB338DE2E3C568000ADA901 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEB338F02E3DBD8E00ADA901 /* HerosList */,
+				CEB338EF2E3DBD7700ADA901 /* LoginView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CEB338E12E3C57F000ADA901 /* DataCore */ = {
+			isa = PBXGroup;
+			children = (
+				CEB338E22E3C580100ADA901 /* Model.xcdatamodeld */,
+			);
+			path = DataCore;
+			sourceTree = "<group>";
+		};
+		CEB338EF2E3DBD7700ADA901 /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				CEB338E92E3DB23F00ADA901 /* LoginViewController.swift */,
+				CEB338ED2E3DB51100ADA901 /* LoginView.swift */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		CEB338F02E3DBD8E00ADA901 /* HerosList */ = {
+			isa = PBXGroup;
+			children = (
+				CEB338F32E3DBE9000ADA901 /* Celdas */,
+				CEB338F12E3DBE8900ADA901 /* MavelTableViewController.swift */,
+				CE873BF92E4017FD003C21AC /* FavoritesTableViewController.swift */,
+			);
+			path = HerosList;
+			sourceTree = "<group>";
+		};
+		CEB338F32E3DBE9000ADA901 /* Celdas */ = {
+			isa = PBXGroup;
+			children = (
+				CE873BED2E3ED650003C21AC /* MarvelTableViewCell.swift */,
+				CE873BEE2E3ED650003C21AC /* MarvelTableViewCell.xib */,
+			);
+			path = Celdas;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +227,7 @@
 			files = (
 				CEB338CD2E398BD600ADA901 /* LaunchScreen.storyboard in Resources */,
 				CEB338CA2E398BD600ADA901 /* Assets.xcassets in Resources */,
+				CE873BF02E3ED650003C21AC /* MarvelTableViewCell.xib in Resources */,
 				CEB338C82E398BD400ADA901 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +239,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEB338DA2E39A39400ADA901 /* MarvelStories.swift in Sources */,
+				CE873BFC2E4021D1003C21AC /* AsyncPhotos.swift in Sources */,
+				CE873BFA2E4017FD003C21AC /* FavoritesTableViewController.swift in Sources */,
+				CEB338DD2E39AACC00ADA901 /* UrlsModels.swift in Sources */,
 				CEB338C52E398BD400ADA901 /* ViewController.swift in Sources */,
 				CEB338C12E398BD400ADA901 /* AppDelegate.swift in Sources */,
+				CEB338E42E3C580100ADA901 /* Model.xcdatamodeld in Sources */,
+				CEB338D52E39A12700ADA901 /* NetworkCall.swift in Sources */,
+				CEB338D72E39A15400ADA901 /* MarvelModels.swift in Sources */,
+				CE873BEF2E3ED650003C21AC /* MarvelTableViewCell.swift in Sources */,
+				CEB338EE2E3DB51100ADA901 /* LoginView.swift in Sources */,
+				CEB338F22E3DBE8900ADA901 /* MavelTableViewController.swift in Sources */,
+				CEB338EB2E3DB23F00ADA901 /* LoginViewController.swift in Sources */,
 				CEB338C32E398BD400ADA901 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +470,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CEB338E22E3C580100ADA901 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CEB338E32E3C580100ADA901 /* Model.xcdatamodel */,
+			);
+			currentVersion = CEB338E32E3C580100ADA901 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CEB338B52E398BD400ADA901 /* Project object */;
 }
